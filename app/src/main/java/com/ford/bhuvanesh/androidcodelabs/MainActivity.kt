@@ -8,7 +8,9 @@ import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
-    val TAG = MainActivity::class.simpleName
+    private val CLASS_NAME = MainActivity::class.simpleName
+    private val TAG = "Log $CLASS_NAME"
+
     private lateinit var buttonNavigation: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
